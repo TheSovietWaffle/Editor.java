@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Basic">
+  <grid id="cd67d" binding="BasicMainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="765" height="457"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="parentPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="-1" height="-1"/>
+          <minimumSize width="300" height="300"/>
+          <preferredSize width="750" height="400"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="c293d" binding="mainMenuPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.5" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <visible value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2756d" class="javax.swing.JButton" binding="nomenMenuBtt">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <margin top="25" left="25" bottom="25" right="25"/>
+                  <text value="Номенклатури"/>
+                </properties>
+              </component>
+              <component id="81968" class="javax.swing.JButton" binding="skladOpBtt">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <margin top="25" left="25" bottom="25" right="25"/>
+                  <text value="Складови Операци"/>
+                </properties>
+              </component>
+              <component id="e1e19" class="javax.swing.JButton" binding="reportsBtt">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <margin top="25" left="25" bottom="25" right="25"/>
+                  <text value="Справки"/>
+                </properties>
+              </component>
+              <component id="decaa" class="javax.swing.JButton" binding="adminMenuBtt">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <margin top="25" left="25" bottom="25" right="25"/>
+                  <text value="Admin"/>
+                </properties>
+              </component>
+              <component id="58a72" class="javax.swing.JButton" binding="settingsBtt">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <margin top="25" left="25" bottom="25" right="25"/>
+                  <text value="Настройки"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="732af" binding="smenuPanel" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <preferredSize width="180" height="400"/>
+              <visible value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bf7ba" class="javax.swing.JButton" binding="sNomenBtt">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <label value="Номенклатури"/>
+                  <maximumSize width="200" height="50"/>
+                  <preferredSize width="180" height="50"/>
+                  <text value="Номенклатури"/>
+                </properties>
+              </component>
+              <component id="c393" class="javax.swing.JList" binding="nomOps">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Групи Стоки"/>
+                    <item value="Горива"/>
+                    <item value="Стоки"/>
+                    <item value="Клиенти"/>
+                    <item value="Отстъпки"/>
+                    <item value="Класове Отстъпки"/>
+                    <item value="Карти"/>
+                    <item value="Обекти"/>
+                  </model>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="83f9e" class="javax.swing.JButton" binding="sSkladOpBtt">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <label value="Складови операции"/>
+                  <maximumSize width="200" height="50"/>
+                  <preferredSize width="180" height="50"/>
+                  <text value="Складови операции"/>
+                </properties>
+              </component>
+              <component id="74ce4" class="javax.swing.JList" binding="sSkladOps">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="ef284" class="javax.swing.JButton" binding="sRepBtt">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <label value="Справки"/>
+                  <maximumSize width="200" height="50"/>
+                  <preferredSize width="180" height="50"/>
+                  <text value="Справки"/>
+                </properties>
+              </component>
+              <component id="2ab02" class="javax.swing.JList" binding="sRepList">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="da1cd" class="javax.swing.JButton" binding="sSettBtt">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <label value="Настройки"/>
+                  <maximumSize width="200" height="50"/>
+                  <preferredSize width="180" height="50"/>
+                  <text value="Настройки"/>
+                </properties>
+              </component>
+              <component id="a8230" class="javax.swing.JList" binding="sSettList">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <gridbag weightx="0.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="a965f">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <scrollpane id="c1553" binding="tableHolder">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6ca73" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties/>
+                <clientProperties>
+                  <terminateEditOnFocusLost class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
